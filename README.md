@@ -5,13 +5,19 @@
 ## Installation
 
 - `cd ~; git clone https://github.com/zettamax/pshe-git .pshe-git;`
-- add `source ~/.pshe-git/pshe.sh` to your `.bashrc` file
+- add `source ~/.pshe-git/pshe.sh` to your `~/.bashrc` file
 - ...
 - PROFIT
 
 ## How to use?
 Simply use `пше` instead of `git`
 Subcommands are also supported.
+
+### Autocomplete
+Use autocomplete, as usual:
+
+`~ пше д`
+`диф     додать`
 
 ### Examles
 `git --help` -> `пше --help`
