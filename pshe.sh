@@ -29,3 +29,10 @@
 	command=$name$space$sub$space$args;
 	eval $command;
 }
+
+_pshe() {
+    local cur=${COMP_WORDS[COMP_CWORD]}
+    COMPREPLY=( $(compgen -W "додать бисект бранч чекаут комит клон диф фетч греп инит лог мерж мув пул пуш ребейз резет ремув шоу стан тег" -- $cur) )
+}
+
+complete -F _pshe пше
