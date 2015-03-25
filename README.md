@@ -16,12 +16,12 @@ Subcommands are also supported.
 ### Examles
 `git --help` -> `пше --help`
 
-`git commit -a -m` -> `пше сщььше -a -m`
+`git commit -a -m` -> `пше комит -a -m`
 
-`git add .` -> `пше фвв .`
+`git add .` -> `пше додать .`
 
-`git reset --hard HEAD` -> `пше куыуе --hard HEAD`
+`git reset --hard HEAD` -> `пше резет --hard HEAD`
 
-`git log --oneline --graph --color` -> `пше дщп --oneline --graph --color`
+`git log --oneline --graph --color` -> `пше лог --oneline --graph --color`
 
 ... and so on
