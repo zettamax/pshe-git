@@ -3,26 +3,27 @@
     args=${@:2}
     space=" "
     case $1 in
-            "фвв") sub="add";;
-            "ишыусе") sub="bisect";;
-            "икфтср") sub="branch";;
-            "сруслщге") sub="checkout";;
-            "сдщту") sub="clone";;
-            "вшаа") sub="diff";;
-            "ауеср") sub="fetch";;
-            "пкуз") sub="grep";;
-            "штше") sub="init";;
-            "дщп") sub="log";;
-            "ьукпу") sub="merge";;
-            "ьм") sub="mv";;
-            "згдд") sub="pull";;
-            "згыр") sub="push";;
-            "куифыу") sub="rebase";;
-            "куыуе") sub="reset";;
-            "кь") sub="rm";;
-            "ырщц") sub="show";;
-            "ыефегы") sub="status";;
-            "ефп") sub="tag";;
+            "додать") sub="add";;
+            "бисект") sub="bisect";;
+            "бранч") sub="branch";;
+            "чекаут") sub="checkout";;
+            "комит") sub="commit";;
+            "клон") sub="clone";;
+            "диф") sub="diff";;
+            "фетч") sub="fetch";;
+            "греп") sub="grep";;
+            "инит") sub="init";;
+            "лог") sub="log";;
+            "мерж") sub="merge";;
+            "мув") sub="mv";;
+            "пул") sub="pull";;
+            "пуш") sub="push";;
+            "ребейз") sub="rebase";;
+            "резет") sub="reset";;
+            "ремув") sub="rm";;
+            "шоу") sub="show";;
+            "стан") sub="status";;
+            "тег") sub="tag";;
             *) sub=""; args=$@;;
     esac;
 	command=$name$space$sub$space$args;
