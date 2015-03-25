@@ -17,6 +17,7 @@ Subcommands are also supported.
 Use autocomplete, as usual:
 
 `~ пше д`
+
 `диф     додать`
 
 ### Examles
