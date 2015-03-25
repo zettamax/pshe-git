@@ -16,9 +16,10 @@ Subcommands are also supported.
 ### Autocomplete
 Use autocomplete, as usual:
 
-`~ пше д`
-
-`диф     додать`
+```bash
+~ пше д[TAB]
+диф     додать
+```
 
 ### Examles
 `git --help` -> `пше --help`
